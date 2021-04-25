@@ -1,5 +1,6 @@
 
 
-## ÎÄ¼şÁĞ±í
+## æ–‡ä»¶åˆ—è¡¨
 
-- LinuxÓ¦ÓÃ¼¼Êõ»ù´¡
+- Linuxåº”ç”¨æŠ€æœ¯åŸºç¡€
+    - [O'Reilly Linux System Administration.pdf](https://github.com/ballsnow/zju-open-course/raw/master/./è®¡ç®—æœº/Linuxåº”ç”¨æŠ€æœ¯åŸºç¡€/O'Reilly Linux System Administration.pdf)

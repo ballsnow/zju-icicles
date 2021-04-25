@@ -1,0 +1,11 @@
+# 忽略掉cherrytree 临时
+*.ctb~
+*.ctb~~
+*.ctb~~~
+*.ctx~
+*.ctx~~
+*.ctx~~~
+
+#忽略掉cherrytree加密文件
+.ctx
+

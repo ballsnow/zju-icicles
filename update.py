@@ -2,7 +2,7 @@ import os
 
 EXCLUDE_DIRS = ['.git', 'docs', '.vscode', '.circleci']
 README_MD = ['README.md', 'readme.md', 'index.md']
-COURSE_CATA = ['数学', '科学', '计算机', '语言', '技能', '通识']
+COURSE_CATA = ['数学', '科学', '计算机', '语言', '技术', '其他']
 
 TXT_EXTS = ['md', 'txt']
 TXT_URL_PREFIX = 'https://github.com/ballsnow/zju-open-course/blob/master/'
@@ -35,7 +35,7 @@ def generate_md(course_path: str, filelist_texts: str, readme_path: str):
 	if readme_path:
 		with open(readme_path, 'r', encoding="utf-8") as file:			
 			final_texts = file.readlines() + final_texts
-	with open('./docs/{}.md'.format(course_path), 'w+') as file:
+	with open('./docs/{}.md'.format(course_path), 'w+', encoding="utf-8") as file:
 		file.writelines(final_texts)
 
 
