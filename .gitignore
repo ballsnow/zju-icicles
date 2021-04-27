@@ -1,4 +1,4 @@
-# 忽略掉cherrytree 临时
+# 忽略掉cherrytree 临时文件
 *.ctb~
 *.ctb~~
 *.ctb~~~
